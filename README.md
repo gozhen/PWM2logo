@@ -1,8 +1,9 @@
-PWM2logo is a simple tool to draw DNA sequence logo from Position weight matrix (PWM). PWM2logo is written in Python. 
+PWM2logo is a simple tool written in Python to draw DNA sequence logo from Position weight matrix (PWM).
 
 
 ## Tutorial
 
+Demo PWM file:
 ./demo_files/demo_pwm.csv
 ```
 	0.304348,	0.068966,	0.950000,	0.990000,	0.156250,	0.690000,	0.285714,	0.480000,	0.100000,	0.066538,	0.033333,	0.053261,	0.010000,	0.065000,
@@ -12,13 +13,13 @@ PWM2logo is a simple tool to draw DNA sequence logo from Position weight matrix 
 ```
 demo_pwm.csv is a file storing the PWM, where four rows represent the probabilities for 'A', 'C', 'G' and 'T' respectively, multiple columns, each representing a nucleotide position. 
 
-Run code below:
+Run code below under Python environment:
 ```
 import pwm2logo
 fn_csv = './demo_pwm.csv'
 pwm2logo.f_draw_logo_from_pwm(fn_csv)
 ```
-The sequence logo image file is genereted under the same folder:
+The sequence logo image file is then genereted under the same folder:
 ![demo_logo](https://github.com/gozhen/PWM2logo/blob/master/demo_files/demo_logo.png)
 
 
