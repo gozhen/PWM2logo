@@ -19,7 +19,7 @@ fn_csv = './demo_pwm.csv'
 pwm2logo.f_draw_logo_from_pwm(fn_csv)
 ```
 The sequence logo image file is genereted under the same folder:
-![demo_logo](https://github.com/gozhen/Logo2PWM/blob/master/server_source_code/server/app/static/LOGO2PWM_LOGO.png?raw=true "Logo2PWM")
+![demo_logo](https://github.com/gozhen/PWM2logo/blob/master/demo_files/demo_logo.png)
 
 
 
